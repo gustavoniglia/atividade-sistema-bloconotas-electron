@@ -1,0 +1,17 @@
+{
+  "name": "template-electron-app",
+  "version": "1.0.0",
+  "description": "templete para criar aplicaçoes desktop com Electrons.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron",
+    "dev": "electronmon ."
+  },
+  "keywords": [],
+  "author": "Gustavo Fernandes Niglia",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electronmon": "^2.0.3"
+  }
+}
