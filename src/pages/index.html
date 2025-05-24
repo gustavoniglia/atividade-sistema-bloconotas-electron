@@ -7,12 +7,22 @@
     <title>templete electron app</title>
 </head>
 <body>
-    <h1>Expansão de dominio</h1>
-    <p>World Game Inifinite Electron</p>
+    <div class="container">
 
-    <!-- Arquivo para manipular nosso DOM -->
-    <script src="../js/script.js"></script>
-    
+    <h1>📝 Bloco de Notas
+
+    <textarea id="nota">Digite sua nota aqui...</textarea>
+
+    <button  oneclick="salvarnota()" id="salvarnota">Salvar Nota</button>
+
+    <h2>Notas Salvas
+    <ul id="listaNotas">
+
+
+    </ul>
+  </div>
+
+  <script src="../js/script.js"></script>
     
 </body>
 </html>
